@@ -1,0 +1,36 @@
+id,product_name,category,rating,reviews_count,all_null_col,unit_price,total_sales
+1,"Ergonomic, Wireless Mouse",Electronics,4.5,120,,29.99,350
+2,"Organic ""Fair-Trade"" Coffee",Grocery,4.8,240,,14.50,480
+3,Basic USB-C Cable,Electronics,,85,,9.99,180
+4,Standing Desk Mat,Office,4.2,45,,45.00,120
+5,"Heavy-Duty, Steel Stapler",Office,3.9,,,18.50,95
+6,Ceramic Mug,Home,4.6,310,,12.00,520
+7,"Notebook, Dot Grid",Stationery,4.7,190,,16.00,380
+8,Mechanical Keyboard,Electronics,4.9,510,,89.99,940
+9,Desk Lamp,Home,4.1,65,,34.99,160
+10,Water Bottle,Fitness,4.4,140,,22.00,290
+11,Noise Cancelling Headphones,Electronics,4.8,420,,149.00,880
+12,"Plant Pot, Small",Home,4.3,95,,11.50,150
+13,Gel Pens 10-pack,Stationery,4.5,180,,8.99,310
+14,Bluetooth Speaker,Electronics,4.4,260,,49.99,530
+15,Yoga Mat,Fitness,4.7,310,,32.00,610
+16,Ballpoint Refill,Stationery,,30,,4.50,70
+17,"Canvas Backpack, Olive",Travel,4.6,220,,65.00,510
+18,Monitor Arm,Office,4.3,110,,55.00,240
+19,Wireless Charger,Electronics,4.0,150,,19.99,210
+20,Resistance Bands,Fitness,4.8,380,,15.00,720
+21,Paper Clips 500pk,Office,4.1,40,,5.00,60
+22,Stainless Steel Straws,Home,4.5,175,,9.00,270
+23,Travel Pillow,Travel,4.2,130,,24.00,190
+24,Desk Organizer,Office,4.4,90,,27.50,210
+25,LED Strip 5m,Home,4.3,210,,18.00,340
+26,Foam Roller,Fitness,4.6,160,,21.00,330
+27,Sticky Notes Pad,Stationery,4.5,290,,6.50,450
+28,Laptop Stand,Office,4.7,340,,39.99,690
+29,Insulated Tumbler,Home,4.6,280,,26.00,560
+30,Webcam HD,Electronics,4.1,190,,59.99,310
+31,Microfiber Cloths,Home,4.7,400,,12.00,680
+32,Luggage Tag,Travel,4.3,80,,7.50,110
+33,Highlighter Set,Stationery,4.4,150,,10.00,260
+34,Gaming Mousepad,Electronics,4.8,310,,19.99,620
+35,Correction Tape,Stationery,,25,,3.50,45

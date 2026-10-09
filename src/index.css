@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@layer base {
+  :root {
+    --background: #FAFAF8;
+    --foreground: #141517;
+    --card: #FFFFFF;
+    --card-foreground: #141517;
+    --popover: #FFFFFF;
+    --popover-foreground: #141517;
+    --primary: #141517;
+    --primary-foreground: #FFFFFF;
+    --secondary: #F2F1ED;
+    --secondary-foreground: #141517;
+    --muted: #F2F1ED;
+    --muted-foreground: #707275;
+    --accent: #EAE8E2;
+    --accent-foreground: #141517;
+    --destructive: #B42318;
+    --destructive-foreground: #FFFFFF;
+    --border: #E6E4DF;
+    --input: #E6E4DF;
+    --ring: #141517;
+    --radius: 8px;
+
+    /* Chart tokens required by Bklit UI - vibrant aesthetic palette */
+    --chart-background: #FFFFFF;
+    --chart-foreground: #141517;
+    --chart-foreground-muted: #707275;
+    --chart-label: #888B90;
+    --chart-line-primary: #4F46E5;
+    --chart-line-secondary: #06B6D4;
+    --chart-crosshair: #4F46E5;
+    --chart-grid: #ECEAE5;
+    --chart-indicator-color: #4F46E5;
+    --chart-indicator-secondary-color: #06B6D4;
+    --chart-marker-background: #FFFFFF;
+    --chart-marker-border: #4F46E5;
+    --chart-marker-foreground: #4F46E5;
+    --chart-marker-badge-background: #4F46E5;
+    --chart-marker-badge-foreground: #FFFFFF;
+    --chart-1: #4F46E5;
+    --chart-2: #06B6D4;
+    --chart-3: #10B981;
+    --chart-4: #F59E0B;
+    --chart-5: #EC4899;
+  }
+
+  .dark {
+    --background: #101112;
+    --foreground: #F0F1F2;
+    --card: #18191B;
+    --card-foreground: #F0F1F2;
+    --popover: #18191B;
+    --popover-foreground: #F0F1F2;
+    --primary: #F0F1F2;
+    --primary-foreground: #101112;
+    --secondary: #222426;
+    --secondary-foreground: #F0F1F2;
+    --muted: #222426;
+    --muted-foreground: #909499;
+    --accent: #2B2D31;
+    --accent-foreground: #F0F1F2;
+    --destructive: #F04438;
+    --destructive-foreground: #FFFFFF;
+    --border: #282A2D;
+    --input: #282A2D;
+    --ring: #818CF8;
+
+    /* Dark chart tokens - vibrant luminous palette */
+    --chart-background: #18191B;
+    --chart-foreground: #F0F1F2;
+    --chart-foreground-muted: #909499;
+    --chart-label: #7E8288;
+    --chart-line-primary: #818CF8;
+    --chart-line-secondary: #22D3EE;
+    --chart-crosshair: #818CF8;
+    --chart-grid: #282A2D;
+    --chart-indicator-color: #818CF8;
+    --chart-indicator-secondary-color: #22D3EE;
+    --chart-marker-background: #18191B;
+    --chart-marker-border: #818CF8;
+    --chart-marker-foreground: #818CF8;
+    --chart-marker-badge-background: #818CF8;
+    --chart-marker-badge-foreground: #101112;
+    --chart-1: #818CF8;
+    --chart-2: #22D3EE;
+    --chart-3: #34D399;
+    --chart-4: #FBBF24;
+    --chart-5: #F472B6;
+  }
+
+  html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100%;
+    font-family: "Geist Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--foreground);
+    background-color: var(--background);
+    letter-spacing: -0.011em;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  code, kbd, samp, pre {
+    font-family: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}

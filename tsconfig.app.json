@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@bklitui/ui/charts": ["bklit-ui/packages/ui/src/charts/index.ts"],
+      "@bklitui/ui/lib/utils": ["bklit-ui/packages/ui/src/lib/utils.ts"],
+      "@bklitui/ui/*": ["bklit-ui/packages/ui/src/*"]
+    }
+  },
+  "include": ["src", "bklit-ui/packages/ui/src/charts"]
+}
